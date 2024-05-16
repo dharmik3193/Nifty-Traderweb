@@ -1,0 +1,131 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 10px; */
+}
+
+#logo-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#logo-container img {
+    max-width: 250px;
+}
+
+#hero {
+    text-align: center;
+    /* padding: 50px 0; */
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 0%;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#about,
+#services,
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact-buttons {
+    margin-top: 20px;
+}
+
+#contact-buttons a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px 40px;
+    background-color: #25D366;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    /* WhatsApp color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    animation: shake 0.5s infinite;
+    /* Add shake animation */
+}
+
+#contact-buttons a.telegram {
+    background-color: #0088cc;
+    /* Telegram color */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    /* padding: 20px 0; */
+}
+
+footer .container{
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    width: max-content;
+    padding: 0%;
+    margin: auto;
+    font-size: 22px;
+}
+
+
+h2{
+    font-size: 40px;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
